@@ -1,9 +1,9 @@
-interface Animal {
+interface Animal2 {
     void emitirSom();
     void comer();
 }
 
-class Dog implements Animal {
+class Dog implements Animal2 {
     public Dog(){};
 
     @Override
@@ -19,7 +19,7 @@ class Dog implements Animal {
 
 public class Interfaces {
 
-    private void AnimalEats(Animal a)
+    private void AnimalEats(Animal2 a)
     {
         a.comer();
         a.emitirSom();
