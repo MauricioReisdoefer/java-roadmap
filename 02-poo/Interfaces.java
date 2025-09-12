@@ -3,8 +3,8 @@ interface Animal2 {
     void comer();
 }
 
-class Dog implements Animal2 {
-    public Dog(){};
+class Dog2 implements Animal2 {
+    public Dog2(){};
 
     @Override
     public void emitirSom() {
@@ -27,7 +27,7 @@ public class Interfaces {
 
     public void main(String[] args)
     {
-        final Dog dog = new Dog();
+        final Dog2 dog = new Dog2();
         AnimalEats(dog);
     }
 }
